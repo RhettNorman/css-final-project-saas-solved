@@ -1,0 +1,19 @@
+{
+  "liveServer.settings.port": 5501,
+  "cSpell.words": [
+    "Asana"
+  ],
+  "files.trimTrailingWhitespace": false,
+  "files.trimTrailingWhitespaceInRegexAndStrings": false,
+  "editor.formatOnSaveMode": "modifications",
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "editor.renderWhitespace": "none",
+  "scm.diffDecorationsIgnoreTrimWhitespace": "false",
+  "editor.trimAutoWhitespace": true,
+  "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
+  "webvalidator.showInfo": false,
+  "files.insertFinalNewline": true,
+  "editor.trimWhitespaceOnDelete": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true
+}

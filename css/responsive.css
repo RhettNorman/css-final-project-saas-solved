@@ -1,0 +1,480 @@
+/*FOR DESKTOP*/
+
+@media (min-width: 1024px) {
+
+  .right-hero {
+    position: relative;
+  }
+
+  .img-wrap-1 {
+    position: absolute;
+    top: 10px;
+    left: 64px;
+  }
+
+  .img-wrap-2 {
+    position: absolute;
+    top: 172px;
+    left: 44px;
+  }
+
+  .img-wrap-3 {
+    position: absolute;
+    top: 172px;
+    left: 262px;
+  }
+
+  .img-wrap-4 {
+    position: absolute;
+    top: 290px;
+    left: 155px;
+  }
+
+  .img-wrap-5 {
+    position: absolute;
+    top: 10px;
+    left: 380px;
+  }
+
+  .img-wrap-6 {
+    position: absolute;
+    top: 10px;
+    left: 175px;
+  }
+  
+  .img-wrap-7 {
+    position: absolute;
+    top: 310px;
+    left: 364px;
+  }
+
+}
+
+/*END OF DESKTOP*/
+
+/*FOR TABLET*/
+
+
+@media (max-width: 1023px) {
+  .navbar .buy-now, .navbar ul li {
+    display: none;
+  }
+
+  .navbar .bars {
+    display: contents;
+  }
+
+  .navbar {
+    width: 46px;
+  }
+
+  .fa-solid {
+    font-size: 20px;
+  }
+
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .left-hero {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .title {
+    width: 100%;
+    margin: 0px;
+    gap: 11px;
+  }
+
+  h1 {
+    word-wrap: break-word;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .title p {
+    margin: 0px;
+  }
+
+  .right-hero {
+    width: 712px;
+    height: 309px;
+    position: relative;
+  }
+
+  .img-wrap-1 {
+    position: absolute;
+    left: 110px;
+  }
+
+  .img-wrap-2 {
+    position: absolute;
+    top: 99px;
+    left: 112px;
+  }
+
+  .img-wrap-3 {
+    position: absolute;
+    top: 99px;
+    left: 414px;
+  }
+
+  .img-wrap-4 {
+    position: absolute;
+    top: 209px;
+    left: 230px;
+  }
+
+  .img-wrap-5 {
+    position: absolute;
+    left: 533px;
+  }
+
+  .img-wrap-6 {
+    position: absolute;
+    left: 287px;
+  }
+  
+  .img-wrap-7 {
+    position: absolute;
+    top: 229px;
+    left: 517px;
+  }
+
+  /*END of TOP section*/
+
+  /*WHY section */
+
+  .why-front {
+    padding: 0px 0px 80px 0px;
+  }
+
+    .why-front-title {
+    gap: 10px;
+  }
+
+  /*END of WHY section*/
+
+  /*START of Pricing section */
+
+  .pricing-section {
+    padding-bottom: 60px;
+  }
+
+  .plans-features-list {
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 44px 0px 44px;
+  }
+
+  .pricing-table {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .plan-price {
+    flex-direction: column;
+  }
+
+  .plan-header {
+    text-align: center;
+    width: 100%;
+  }
+
+  .start-business {
+    text-align: left;
+  }
+
+  .plan-footer {
+    align-self: center;
+  }
+
+  .plan-features {
+    flex-direction: column;
+  }
+
+/*END of PRICING section*/
+
+/*START of HIRE US section*/
+
+
+.hire-us-section {
+  flex-direction: column;
+  width: 100%;
+}
+
+.hire-us-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 30px 20px 30px;
+}
+
+.hire-us-top {
+  width: 396px;
+}
+
+.divider {
+  width: 396px;
+}
+
+.hire-us-bottom {
+  gap: 30px;
+}
+
+.hire-us-right {
+  width: 100%;
+}
+
+.form-group input {
+  width: 100%;
+}
+
+#more-information {
+  width: 100%;
+}
+
+.privacy-policy-2 {
+  display: none;
+}
+
+/*END of HIRE US section*/
+
+/*START of FOOTER section*/
+
+footer {
+  padding: 80px 30px 40px 30px;
+}
+
+.frame-1 {
+  align-items: baseline;
+}
+
+.frame-3 {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.frame-4 {
+  gap: 80px;
+}
+
+.frame-5 {
+  gap: 49px;
+}
+
+.frame-6, .frame-7, .frame-8, .frame-9 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+}
+
+/*END of TABLET*/
+
+/*FOR MOBILE*/
+
+@media (max-width: 767px) {
+  h1, h2 {
+    font-size: 26px;
+  }
+
+  .header-content {
+    width: 100%;
+  }
+
+  .body {
+    width: 100%;
+    min-width: 360px;
+  }
+
+  .top-section {
+    height: 705px;
+  }
+
+  .hero-section {
+    padding: 40px 16px 0px 16px;
+    gap: 10px;
+  }
+
+  .left-hero {
+    height: 235px;
+
+    gap: 30px;
+  }
+
+  .right-hero {
+    width: 328px;
+    height: 309px;
+  }
+
+  .img-wrap-1 {
+    left: 0px;
+  }
+
+  .img-wrap-2 {
+    left: 0px;
+  }
+
+  .img-wrap-3 {
+    left: 184px;
+  }
+
+  .img-wrap-4 {
+    left: 106px;
+  }
+
+  .img-wrap-5 {
+    left: 248px;
+  }
+
+  .img-wrap-6 {
+    left: 114px;
+  }
+
+  .img-wrap-7 {
+    left: 239px;
+    top: 219px;
+  }
+
+/*END of TOP section*/
+
+/*START of WHY section */
+
+  .why-front {
+    width: 100%;
+    padding: 0px 0px 60px 0px;
+  }
+
+  .why-front-title {
+    padding: 0px 16px 00px 16px;
+    width: 100%;
+    padding: 0px 16px 0px 16px;
+    gap: 10px;
+  }
+
+  .why-sub {
+    width: 100%;
+}
+
+  .left-wing, .right-wing {
+    display: none;
+  }
+
+  .bullet-list {
+    flex-direction: column;
+    width: 100%;
+    gap: 17px;
+  }
+
+  .bullet {
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    gap: 24px;
+  }
+
+/*END of WHY section*/
+
+/*START of Pricing section */
+
+  .plans-features-list {
+    padding: 0px 16px;
+  }
+
+  .pricing-table {
+    gap: 30px;
+    padding: 40px;
+  }
+
+  .row-1, .row-2 {
+    flex-direction: column;
+  }
+
+/*END of PRICING section*/
+
+/*START of HIRE US section*/
+
+  .hire-us-section {
+    padding: 0px;
+}
+
+  .hire-us-left {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 40px 16px 20px 16px;
+    gap: 60px;
+  }
+
+  .hire-us-top {
+    width: 100%;
+    text-align: center;
+  }
+
+  .divider {
+    width: 100%;
+  }
+
+  .hire-us-bottom {
+    align-items: center;
+  }
+
+  .hire-us-right {
+    padding: 30px 16px 30px 16px;
+  }
+
+  .form-group {
+    flex-direction: column;
+  }
+
+  /*END of HIRE US section*/
+
+  /*START of FOOTER section*/
+
+  footer {
+    padding: 80px 16px 40px 16px;
+  }
+
+  .frame-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .frame-2 {
+    align-items: center;
+    text-align: center;
+  }
+
+  .frame-4, .frame-5 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .frame-6, .frame-7, .frame-8, .frame-9, .resources, .resources li  {
+    align-items: center;
+    text-align: center;
+  }
+
+  .company ul li, .features ul li, .resources ul li, .documentation ul li, .address a, .phone-number a {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
+
+
+
+/*END OF MOBILE*/
